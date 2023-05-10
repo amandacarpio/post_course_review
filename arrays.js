@@ -27,3 +27,9 @@ console.log('Exercise 6 Result: ', foods)
 // Use the slice method on the foods array to create a new array containing 'sushi' & 'cupcake'. Assign the new array to a variable named yummy.
 let yummy = foods.slice(1, 3)
 console.log('Exercise 7 Result: ', yummy)
+
+// Using the indexOf method on the foods array, assign the index of the 'tofu' string to a variable named soyIdx.
+const soyIdx = foods.indexOf('tofu')
+console.log(soyIdx)
+
+// Assign to a variable named allFoods the result of joining the strings in the foods array such that the result is the following single string: 'taco -> sushi -> cupcake -> tofu -> cheeseburger'
